@@ -1,0 +1,606 @@
+body{
+    background-color: black;
+    animation-delay: 9s !important;
+    animation: light 2s linear forwards ;
+}
+
+@keyframes light{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: lightgreen;
+    }
+}
+
+
+
+.opn1{
+    font-family: 'Whisper';
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    font-size: 575%;
+    animation: fade 5s ease;
+    opacity: 0;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+.opn2{
+    font-family: 'whisper';
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 18%;
+    font-size: 600%;
+    animation-delay: 5s !important;
+    animation: her 5s ease forwards;
+    opacity: 0;
+    padding: 5%;
+    margin-bottom: 100%;
+}
+
+@keyframes her {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-235px) scale(0.5);
+    }
+}
+
+.sapi{
+    height: 255px;
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+}
+
+.bg_sapi{
+    position: absolute;
+    left: 8.7%;
+    top: 23.5%;
+    background-color: white;
+    padding: 1%;
+    height: 255px;
+    width: 200px;
+}
+
+.sapi,.bg_sapi{
+    opacity: 0;
+    animation-delay: 10s !important;
+    animation: eiyosapi 5s ease forwards;
+}
+
+@keyframes eiyosapi{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.syapek{
+    height: 255px;
+    position: absolute;
+    bottom: 30%;
+    left: 32%;
+}
+
+.bg_syapek{
+    position: absolute;
+    left: 30.6%;
+    top: 23.5%;
+    background-color: white;
+    padding: 1%;
+    height: 255px;
+    width: 200px;
+}
+
+.syapek,.bg_syapek{
+    opacity: 0;
+    animation-delay: 12s !important;
+    animation: eiyosyapek 5s ease forwards;
+}
+
+@keyframes eiyosyapek{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.cabi{
+    height: 255px;
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+}
+
+.bg_cabi{
+    position: absolute;
+    left: 53.6%;
+    top: 23.5%;
+    background-color: white;
+    padding: 1%;
+    height: 255px;
+    width: 200px;
+}
+
+.cabi,.bg_cabi{
+    opacity: 0;
+    animation-delay: 14s !important;
+    animation: eiyocabi 5s ease forwards;
+}
+
+@keyframes eiyocabi{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.buburit{
+    height: 255px;
+    position: absolute;
+    bottom: 30%;
+    left: 77%;
+}
+
+.bg_buburit{
+    position: absolute;
+    left: 75.6%;
+    top: 23.5%;
+    background-color: white;
+    padding: 1%;
+    height: 255px;
+    width: 200px;
+}
+
+.buburit, .bg_buburit{
+    opacity: 0;
+    animation-delay: 16s !important;
+    animation: eiyobuburit 5s ease forwards;
+}
+
+@keyframes eiyobuburit{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.sweet{
+    height: 255px;
+    position: absolute;
+    bottom: -49%;
+    left: 5%;
+    border-radius: 5%;
+    background-color: white;
+    padding: 1%;
+}
+
+.bg_sweet{
+    background-color: pink;
+    padding: 1%;
+    width: 89%;
+    height: 55%;
+    border-radius: 2%;
+    position: absolute;
+    bottom: -65%;
+    left: 5%;
+}
+
+.masyallah{
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    bottom: -169.5%;
+    right: 4%;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.darkside{
+    opacity: 0;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    bottom: -169.5%;
+    right: 4%;
+    border-radius: 5%;
+    padding: 1%;
+    transition: 0.5s;
+}
+
+.darkside:hover{
+    opacity: 0.5;
+}
+
+.bg_darkside{
+    background-color: #00AEEF;
+    padding: 1%;
+    width: 89%;
+    height: 55%;
+    border-radius: 2%;
+    position: absolute;
+    bottom: -178%;
+    left: 5%;
+}
+
+.eiyosing{
+    height: 300px;
+    background-color: #B7825F;
+    position: absolute;
+    bottom: -288%;
+    left: 5%;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.bg_eiyosing{
+    background-color: #F5F5DC;
+    padding: 1%;
+    width: 89%;
+    height: 55%;
+    border-radius: 2%;
+    position: absolute;
+    bottom: -294%;
+    left: 5%;
+}
+
+.fix, .the_man, .bone, .dream, .masa{
+    width: 16%;
+    position: absolute;
+    bottom: -387%;
+    left: 5%;
+    border-radius: 2%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fix:hover, .the_man:hover, .bone:hover, .dream:hover, .masa:hover{
+    transform: scale(1);
+    background-color: white;
+    padding: 1%;
+    border-radius: 0.2%;
+    z-index: 1;
+}
+
+.the_man{
+    left: 63%;
+    
+}
+
+.bone{
+    left: 25%;
+}
+
+.dream{
+    left: 80%;
+    
+}
+
+.masa{
+    left: 45%;
+}
+
+.bg_lagu{
+    background-color: #1ED760;
+    padding: 1%;
+    width: 89%;
+    height: 55%;
+    border-radius: 2%;
+    position: absolute;
+    bottom: -395%;
+    left: 5%;
+}
+
+.owl, .cilukba, .anboxing{
+    position: absolute;
+    bottom: -513.4%;
+    height: 76%;
+    left: 25%;
+    background-color: #00AEEF;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.cilukba{
+    left: 55%;
+}
+
+.anboxing{
+    height: 50%;
+    left: 30%;
+    bottom: -580%;
+}
+
+.bg_owl{
+    background-color: coral;
+    padding: 1%;
+    width: 89%;
+    height: 155%;
+    border-radius: 2%;
+    position: absolute;
+    bottom: -595%;
+    left: 5%;
+
+}
+
+.header_lagu, .header_sweet, .header_dark, .header_sing, .header_gemes{
+    background-color: white;
+    padding: 1%;
+    width: 89%;
+    height: 10%;
+    border-radius: 2%;
+    position: absolute;
+    bottom: -350%;
+    left: 5%;
+}
+
+.header_sweet{
+    bottom: -20.2%;
+
+}
+
+.header_dark{
+    bottom: -133%;
+
+}
+
+.header_sing{
+    bottom: -248%;
+    background-color: #B7825F;
+
+}
+
+.header_gemes{
+    bottom: -440%;
+    height: 15%;
+    background-color: #00AEEF;
+
+}
+
+.text_sweet, .text_dark, .text_sing, .text_lagu, .text_gemes{
+    position: absolute;
+    font-family: Shadows Into Light;
+    font-weight: 700;
+    color: black;
+    font-size: 245%;
+
+}
+
+.text_sweet{
+    bottom: -22%;
+    left: 57%;
+}
+
+.text_dark{
+    bottom: -134.4%;
+    left: 39%;
+} 
+.text_sing{
+    bottom: -249.4%;
+    left: 67%;
+    color: white;
+}
+.text_lagu{
+    bottom: -351%;
+    left: 42%;
+}
+.text_gemes{
+    bottom: -439%;
+    left: 43%;
+    color: white;
+}
+
+.keatas, .balik{
+    position: absolute;
+    bottom: -597.7%;
+    left: 5%;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    height: 10%;
+    width: 25%;
+    border-radius: 5%;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.balik{
+    border: none;
+    left: 5%;
+    bottom: -580%;
+    font-weight: 700; 
+}
+
+.keatas:hover{
+    transform: scale(1.2);
+}
+
+.balik:hover{
+    transform: scale(1.2);
+}
+
+.parag1, .parag2, .parag3{
+    font-family: Alata;
+    position: absolute;
+    text-align: justify;
+    display: grid;
+    bottom: -53%;
+    margin: 55px;
+    font-size: 145%;
+    margin-left: 34%;
+    font-weight: 800;
+}
+
+.formore1, .formore2, .formore3{
+    font-family: Alata;
+    position: absolute;
+    text-align: justify;
+    display: grid;
+    bottom: -63%;
+    margin: 55px;
+    font-size: 145%;
+    margin-left: 48%;
+    font-weight: 800;
+}
+
+.parag2{
+    color: white;
+    bottom: -167%;
+    margin-left: 5%;
+    margin-right: 25%;
+    font-size: 145%;
+}
+
+.eumm{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: justify;
+    display: grid;
+    margin: 55px;
+    font-size: 125%;
+    margin-left: 5%;
+    font-weight: 800;
+    bottom: -179%;
+
+}
+
+.formore2{
+    color: white;
+    bottom: -173%;
+    margin-left: 5%;
+}
+
+.parag3{
+    bottom: -287%;
+    color: #B7825F;
+    margin-right: 12%;
+    margin-left: 53%;
+    font-size: 140%;
+}
+
+.formore3{
+    margin: 15px;
+    bottom: -290%;
+    color: #B7825F;
+    right: 12%;
+    font-size: 160%;
+}
+
+.luv1, .luv2, .luv3, .luv4, .luv5, .luv6{
+    height: 300px;
+    position: absolute;
+}
+
+.luv1{
+    bottom: -112%;
+    left: 38%;
+}
+
+.luv2{
+    bottom: -225%;
+    left: 38%;
+}
+
+.luv3{
+    bottom: -340%;
+    left: 35%;
+    height: 355px;
+}
+
+.luv4{
+    bottom: -420%;
+    left: 42%;
+    height: 200px;
+}
+
+.luv5{
+    bottom: -420%;
+    left: 5%;
+    height: 200px;
+}
+
+.luv6{
+    bottom: -420%;
+    right: 5%;
+    height: 200px;
+}
+
+.bg_beautiful{
+    position: fixed;
+    bottom: 1%;
+    z-index: 1%;
+    right: 1%;
+    height: 20%;
+    width: 10%;
+    padding: 1%;
+    border-radius: 5%;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.beautiful{
+    position: fixed;
+    bottom: 5.5%;
+    z-index: 1%;
+    right: 2.3%;
+    height: 20%;
+    border-radius: 5%;
+}
+
+.bg_beautiful, .beautiful{
+    animation-delay: 15s !important;
+    animation: in 5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes in{
+    from{
+        transform: translateX(250px);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

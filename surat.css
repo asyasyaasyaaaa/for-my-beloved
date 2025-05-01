@@ -1,0 +1,83 @@
+body{
+    background-image: url(background_flower.png);
+    background-size: cover;
+
+
+}
+
+.bg{
+    background-color: white;
+    padding: 1%;
+    border-radius: 5%;
+    height: 400px;
+    width: 300px;
+    opacity: 75%;
+}
+
+.judul{
+    position: absolute;
+    top: 47%;
+    left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 735;
+    
+}
+
+audio{
+    position: absolute;
+    top: 57%;
+    left: 1.5%;
+}
+
+.superpower{
+    height: 245px;
+    position: absolute;
+    top: 3.5%;
+    left: 2%;
+    border-radius: 50%;
+    background-color: black;
+    padding: 1%;
+    background-size: 5%;
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate{
+    from{
+        transfrom: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.gulungan{
+    height: 400px;
+    position: absolute;
+    right: 10.5%;
+    top: 5%;
+    cursor: pointer;
+}
+
+.isi{
+    height: 800px;
+    position: absolute;
+    right: 17%;
+    top: 5%;  
+}
+
+button{
+    color: brown;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border: none;
+    margin-left: 4%;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+

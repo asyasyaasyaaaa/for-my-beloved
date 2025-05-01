@@ -1,0 +1,223 @@
+body{
+    background-color: black;
+    animation-delay: 39s !important;
+    animation: fadein 5s linear forwards;
+}
+
+@keyframes fadein{
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: white;
+    }
+}
+
+.hai,.hai1,.hai2,.hai3,.hai4,.hai5,.love{
+    position: absolute;
+    left: 24.5%;
+    top: 37%;
+    font-size: 300%;
+    font-family: Alata;
+    font-weight: 700;
+    color: white;
+}
+
+.hai{
+    left: 28%;
+    font-size: 335%;
+    opacity: 0;
+    animation: in 5s ease;
+    animation-duration: 8s;
+}
+
+.hai1{
+    top: 37%;
+    left: 26%;
+    animation-delay: 8s !important;
+    animation: in 5s ease;
+    animation-duration: 8s;
+    opacity: 0;
+}
+
+.hai2{
+    opacity: 0;
+    animation-delay: 15s !important;
+    animation: in 5s ease;
+    animation-duration: 8s;
+    left: 23.5%;
+}
+
+.hai3{
+    opacity: 0;
+    animation-delay: 22s !important;
+    animation: in 5s ease;
+    animation-duration: 8s;
+    left: 34.5%;
+}
+
+.hai4{
+    opacity: 0;
+    font-size: 400%;
+    animation-delay: 30s !important;
+    animation: in 5s ease;
+    animation-duration: 8s;
+    left: 43%;
+    top: 34%;
+}
+
+@keyframes in{
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+}
+
+.love{
+    opacity: 0;
+    font-size: 400%;
+    animation: instop 5s ease forwards;
+    animation-delay: 38s !important;
+    animation-duration: 8s;
+    left: 36%;
+    top: 34%;
+}
+
+@keyframes instop{
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-250px) scale(65%);
+        opacity: 1;
+        color: black;
+    }
+}
+
+.next{
+    position: absolute;
+    top: 55%;
+    left: 36%;
+    border: none;
+    border-radius: 5%;
+    background-color: #B7825F;
+    text-decoration: none;
+    cursor: pointer;
+    height: 10%;
+    width: 25%;
+    font-size: 150%;
+    font-family: Alata;
+    font-weight: 700;
+    color: white;
+    opacity: 0;
+    animation-delay: 42s !important;
+    animation: start 5s linear forwards;
+    z-index: 100;
+}
+
+@keyframes start{
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.lov1,.lov2,.lov3,.lov4,.lov5,.lov6{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    height: 255px;
+    transform: rotateZ(-15deg);
+    animation-delay: 42s !important;
+    animation: love 6s ease forwards;
+    opacity: 0;
+}
+
+.lov2{
+    top: 1%;
+    left: 78%;
+    transform: rotateZ(15deg);
+}
+
+.lov3{
+    top: 65%;
+    left: 78%;
+    transform: rotateZ(-15deg);
+}
+
+.lov4{
+    top: 65%;
+    left: 2%;
+    transform: rotateZ(15deg);
+}
+
+.lov5{
+    top: 36%;
+    left: 26%;
+    transform: rotateZ(-17deg);
+}
+
+.lov6{
+    top: 36%;
+    left: 52%;
+    transform: rotateZ(17deg);
+}
+
+@keyframes love{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.skip{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    border: none;
+    border-radius: 5%;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    height: 6%;
+    width: 5%;
+    font-size: 150%;
+    font-family: Alata;
+    font-weight: 700;
+    color: black;
+    z-index: 99999;
+    animation: color 5s ease forwards;
+    animation-delay: 39s;
+}
+
+@keyframes color{
+    from{
+        color: black;
+        background-color: white;
+    }
+    to{
+        color: white;
+        background-color: black;
+    }
+}
